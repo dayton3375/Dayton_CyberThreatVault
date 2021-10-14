@@ -11,3 +11,6 @@ MoziHTML.html:
   
 MoziJavascript.js:
   A beutified file of the javascript found in the HTML file above
+
+Malicious Requests:
+  When MOZI attacks and tries to infect the victim, it does a 3-Way-Handshake and sends a malicious HTTP request. This file shows the contents of those attack requests that I find. I'll continue to post the time and the contents of the packet. It usually attempts to run commands and download and execute a payload from a malicious domain.
