@@ -1,0 +1,13 @@
+This is the Mozi.m malware associated with a worldwide botnet originating in China. 
+
+Malicious Request.png:
+  A snapshot of the malicious POST request that downloads and executes Mozi.m from the Chinese C2 server
+ 
+Mozi.m:
+  The executable binary the Chinese C2 server gave me. This is where all the action happens.
+ 
+MoziHTML.html:
+  Some HTML code I found in the Mozi.m executable
+  
+MoziJavascript.js:
+  A beutified file of the javascript found in the HTML file above
