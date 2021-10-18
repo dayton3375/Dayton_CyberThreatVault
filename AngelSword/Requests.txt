@@ -1,0 +1,5 @@
+GET http://wall.angelsword.cc/lixuan.php HTTP/1.1
+Host: wall.angelsword.cc
+User-Agent: Go-http-client/1.1
+Lixuan-Sima: 80
+Accept-Encoding: gzip
