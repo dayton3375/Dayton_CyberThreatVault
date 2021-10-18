@@ -1,0 +1,5 @@
+GET /db/webadmin/index.php?lang=en HTTP/1.1
+Host: 64.126.140.22
+Accept-Encoding: identity
+Connection: Close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36
