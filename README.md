@@ -1,4 +1,4 @@
-# Palouse Cyber Threat Intelligence Room
+# Pullman Cyber Threat Vault
 This is a collection of the most aggressive malware, code, and malicious requests that I discover hit my IP at my Eastern Washington state address.
 
 I do this by having Security Onion sniff all the traffic on a public IP address of mine 
