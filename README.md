@@ -18,6 +18,9 @@ Between 50 and 100 hits per day are attacks on MSSQL. These appear to be mostly 
 ### SNMP Attacks
 Port 161 sees about a dozen hits a day that triggers in "information leak" alert. They usually contain a malicious get-request. These mostly originate from Amsterdam addresses but also are from other various places in the world.
 
+### Log4Shell
+This is a new emerging threat that has been interesting to see the way that attackers are using it. There are many differnent methods threat actors try to get the malicious string logged, and here we see the majority are using HTTP Authentication Headers with various parameters. The malware payload Exploit came from an attack where the threat actor was using curl, such that it appears to be a copy of the Log4Shell Solar Lab on TryHackMe. These were captured the morning of December 10, the day after Log4Shell went public.
+
 ### Mozi Bot
 This botnet surged toward the fall of 2021 and then seemed to die off after many of the malicious requests appeared to have the wrong C2 IP address (it was 192.168.1.1 which just a non-routable private address). I believe that caused the infection to die off significantly. I obtained the payload and stored that in this repo. So far all of the C2 servers and any IP addresses involved originate from China. Researching and reverse engineering this payload, it appears to have a lot of concerning functionality such as breaching into the WiFi network of the router and sending information to the Chinese address even after obtaining persisance.
 
